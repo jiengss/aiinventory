@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "InventoryAI",
+    "slug": "inventory-ai",
+    "version": "1.0.0",
+    "scheme": "inventoryai",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow InventoryAI to access your camera."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow InventoryAI to access your photos."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png"
+        }
+      ],
+      "expo-secure-store"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourco.inventoryai"
+    },
+    "android": {
+      "package": "com.yourco.inventoryai"
+    }
+  }
+}
